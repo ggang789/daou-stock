@@ -94,3 +94,12 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+
+$config['pdo'] = [
+    'hostname' => '127.0.0.1',
+    'port' => '3306',
+    'username' => 'root',
+    'password' => '1234',
+    'database' => 'stock',
+    'charset' => 'utf8mb4',
+];
