@@ -11,6 +11,11 @@
 * Codeigniter 3.1.13
 * MariaDB 11.0.2
 
+## API
+* /api/stock/exist: 상품코드 존재 여부 확인
+* /api/stock/receiving: 우선순위에 따른 입고 처리 또는 로케이션 추천 (입고 처리시, 로케이션 추천 없음)
+* /api/stock/location: 특정 로케이션에 입고 처리
+
 ## Database
 * DDL
 <pre><code>
